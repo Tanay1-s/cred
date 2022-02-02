@@ -1,0 +1,45 @@
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+
+.text{
+    
+    background-color: rgb(39, 39, 39);
+    align-items: center;
+    height:65px;
+    
+    display: flex;
+    text-align: center;
+    justify-content: center ;
+    align-items: center;
+    
+    
+}
+.text1{
+    font-size: 25px;
+    font-family: gilroy-regular;
+    font-weight: bolder;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+}
+.text a{
+    font-size: 25px;
+    font-family: gilroy-semibold;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    color: #7595d7;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+
+a{
+    font-family: gilroy-semibold;
+    font-weight: bolder;
+    text-decoration: none;
+    
+}
+.link-claim{
+    font-family: gilroy-semibold;
+    font-weight: bolder;
+}

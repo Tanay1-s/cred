@@ -1,0 +1,13 @@
+[data-aos="box-trans"] {
+    margin-left:0;
+    transform: translate(0) ;
+}
+
+[data-aos="box-trans"].aos-animate {
+    translate: translate(100px,20px);
+}
+
+.box{
+    height: 100px;
+    width:100px;
+}

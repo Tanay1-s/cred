@@ -1,23 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import InfoStrip from './Components/InfoStrip';
+import Navbar from './Components/Navbar';
+import Mid from './Components/Mid';
+import PhoneSlider from './Components/PhoneSlider';
+import Seca from './Components/Seca';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/>
+      <InfoStrip/>
+      <Mid/>
+      <PhoneSlider/>
+      {/* <Seca/> */}
     </div>
   );
 }
