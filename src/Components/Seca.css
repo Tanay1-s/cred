@@ -1,4 +1,12 @@
 .main2{
     background-image: url('https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg.jpg');
-    background-size: 100vw;
+    height: 100vh;
+    width: 100%;
+    margin-top: -48%;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    /* margin-left: 10%; */
 }

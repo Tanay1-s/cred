@@ -14,7 +14,7 @@ function App() {
       <InfoStrip/>
       <Mid/>
       <PhoneSlider/>
-      {/* <Seca/> */}
+      <Seca/>
     </div>
   );
 }
